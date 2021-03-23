@@ -9,6 +9,7 @@ stages {
     steps {
 
       git 'https://github.com/devikaranimuddana/hello-world-sc.git'
+}
 
 }
 }
