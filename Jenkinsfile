@@ -17,7 +17,7 @@ stages {
      
       echo "Building java code is in progress..."
 
-      sh 'cd /usr/local/hello-world-sc'
+      sh '/usr/local/hello-world-sc'
       sh "mvn -Dmaven.test.failure.ignore=true clean package" 
 
 
