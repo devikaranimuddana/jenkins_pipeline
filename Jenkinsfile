@@ -28,7 +28,7 @@ stages {
 
      steps {
 
-       sh 'curl --upload-file /target/*.war "http://tomcat:tomcat@34.66.211.121:8082/manager/text/deploy?path=/myapp&update=true"'
+       sh 'curl --upload-file /*/target/*.war "http://tomcat:tomcat@34.66.211.121:8082/manager/text/deploy?path=/myapp&update=true"'
     
 
            }
